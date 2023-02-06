@@ -2,7 +2,7 @@
 from pynet import getfile
 import os
 
-filepath = 'version.CONFIG'
+filepath = 'config/version.CONFIG'
 with open(filepath) as fp:
    line = fp.readline()
    cnt = 1
